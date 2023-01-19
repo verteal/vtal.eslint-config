@@ -1,0 +1,1 @@
+# verteal.eslint-config

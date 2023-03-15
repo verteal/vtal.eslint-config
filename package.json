@@ -1,5 +1,5 @@
 {
-  "name": "@verteal/eslint-config",
+  "name": "@vtal/eslint-config",
   "version": "1.0.0",
   "description": "ESLint configuration used by verteal",
   "main": "index.js",

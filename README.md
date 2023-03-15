@@ -1,4 +1,4 @@
-# verteal ESLint Config
+# VTAL ESLint Config
 
 ## What is included in this package?
 - Standard config base

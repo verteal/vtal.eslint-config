@@ -47,7 +47,8 @@ module.exports = {
     "jsx-a11y/role-has-required-aria-props": "warn",
     "jsx-a11y/role-supports-aria-props": "warn",
     "@typescript-eslint/no-explicit-any": "error",
-    "no-console": ["error", { "allow": ["warn", "error"] }]
+    "no-console": ["error", { "allow": ["warn", "error"] }],
+    "react/jsx-curly-brace-presence": ["error", { "props": "never" }]
   },
   settings: {
     react: {

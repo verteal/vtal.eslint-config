@@ -1,17 +1,18 @@
 {
   "name": "@vtal/eslint-config",
-  "version": "1.0.6",
-  "description": "ESLint configuration used by verteal",
-  "main": "index.js",
+  "version": "1.0.8",
+  "description": "ESLint configuration used by Verteal",
   "license": "MIT",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/verteal/verteal.eslint-config.git"
   },
+  "main": "index.js",
+  "files": [
+    "react.js",
+    "node.js"
+  ],
   "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^5.48.2",
-    "@typescript-eslint/parser": "^5.48.2",
-    "eslint": "^8.32.0",
     "eslint-config-prettier": "^8.6.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.27.5",
@@ -24,12 +25,8 @@
     "prettier": "^2.8.3"
   },
   "peerDependencies": {
-    "eslint": "^7.23.0 || ^8.0.0",
-    "typescript": ">=3.3.1"
-  },
-  "peerDependenciesMeta": {
-    "typescript": {
-      "optional": true
-    }
+    "eslint": "^8.0.0",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2"
   }
 }

@@ -47,10 +47,10 @@ module.exports = {
     "jsx-a11y/role-has-required-aria-props": "warn",
     "jsx-a11y/role-supports-aria-props": "warn",
     "@typescript-eslint/no-explicit-any": "error",
-    "no-console": ["error", { "allow": ["warn", "error"] }],
-    "react/jsx-curly-brace-presence": ["error", { "props": "never" }],
+    "no-console": ["error", { allow: ["warn", "error"] }],
+    "react/jsx-curly-brace-presence": ["error", { props: "never" }],
     "no-unused-vars": "off",
-    "@typescript-eslint/no-unused-vars": "error"
+    "@typescript-eslint/no-unused-vars": "error",
   },
   settings: {
     react: {
